@@ -26,7 +26,7 @@ Features to discuss/add: Create individual “groups” (i.e. Camera Dept., Art 
 
 
 Team:
-Timothy Chin
-Jonathan Chen
-Sam Lin
-Calvin Chan
+- Timothy Chin
+- Jonathan Chen
+- Sam Lin
+- Calvin Chan
