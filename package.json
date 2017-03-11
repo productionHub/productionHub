@@ -1,0 +1,23 @@
+{
+  "name": "prohub",
+  "version": "1.0.0",
+  "description": "Indie film production organizational tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothychin/productionHub.git"
+  },
+  "author": "Timothy Chin, Jonathan Chen, Sam Lin, Calvin Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothychin/productionHub/issues"
+  },
+  "homepage": "https://github.com/timothychin/productionHub#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
