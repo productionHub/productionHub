@@ -1,6 +1,6 @@
-var express = require('express');
+const express = require('express');
 
-var app = express();
+const app = express();
 
 app.listen(1337, function() {
   console.log('Server is now listening on Port 1337');
