@@ -13,13 +13,13 @@ For example, if an actor was in his trailer waiting for the next scene to start,
 This is mainly a tool for accountability and review. It would include check-in times, when each shot was rolled (i.e. 9:40AM - Scene 5, Take 1 was shot; 9:42 - Scene 5, Take 2 was shot; etc.), if anything of note happened (i.e. 5:05PM - Lead Actor suffers minor cut, 15 minute break for first-aid). This allows the director and other department heads to review the day, and will allow for optimization of future days.
 
 Pages - (Written with Web in mind first)
-Signup Form for New User: Name, Email, Phone #, Role, Profile (FB/Google), Picture (Upload/Take), DOB
+- Signup Form for New User: Name, Email, Phone #, Role, Profile (FB/Google), Picture (Upload/Take), DOB
 Homepage: Greeting, Current information (i.e. “No productions today”/”Currently on Day 5 of PRODUCTION”/”Tomorrow’s call time -”), Current Production Feed - View Current Production Page
-Profile/Edit Profile: Edit User info and preferences
-Calendar: Button to switch between Grid/List View, Hover over specific date to view basic details (link to call sheet), click to open Production Page with specific date loaded. Option to create new project.
+- Profile/Edit Profile: Edit User info and preferences
+- Calendar: Button to switch between Grid/List View, Hover over specific date to view basic details (link to call sheet), click to open Production Page with specific date loaded. Option to create new project.
 [Linking to Google Calendar, using API]
-Create New Project: Only barebones details needed to create (Title, tentative dates). Other info like call sheets, crew list, etc. can be filled in later from the production page. Once forms are filled out, creates a new Production Page.
-Production Page: Central page/hub of a production. Production feed is displayed prominently, updated live during production. Has access to all relevant info - Crew List, Full Schedule (see on calendar?), Individual Day Schedules, Call Sheets, Production Logs.
+- Create New Project: Only barebones details needed to create (Title, tentative dates). Other info like call sheets, crew list, etc. can be filled in later from the production page. Once forms are filled out, creates a new Production Page.
+- Production Page: Central page/hub of a production. Production feed is displayed prominently, updated live during production. Has access to all relevant info - Crew List, Full Schedule (see on calendar?), Individual Day Schedules, Call Sheets, Production Logs.
 
 
 Features to discuss/add: Create individual “groups” (i.e. Camera Dept., Art Dept., Production) that link members together/can see each other’s notes/remarks. All should still be able to access the general feed of info.
