@@ -63,6 +63,31 @@ describe('Users:', () => {
         expect(res.body.params.userId).to.exist();
       });
     });
+
+    it('a GET/ to a specific user\'s productions should return an array', function(done) {
+      api.get('/users/' + dummyID + '/productions')
+      .set('Accept', 'application/json')
+      .expect(function(err, res) {
+        expect(res.body).to.be.an('array');
+      });
+    });
   });
 
+  describe('Productions:', () => {
+    it('a GET/ should return a 200 response', function(done) {
+      api.get('/productions')
+      .set('Accept', 'application/json')
+      .expect(200, done);
+    });
+
+    it('a GET/ to a specific production should return that production', function(done) {
+      api.get('/production/' + dummyProductionID)
+      .set('Accept', 'application/json')
+      .expect(function(err, res) {
+        expect(res.body[0].name).to.equal('the_hitchhiker');
+        expect(res.body[0].location).to.equal('middleofnowhere');
+        expect(res.body[0].crew).to.be.an('array');
+      });
+    });
+  });
 });
