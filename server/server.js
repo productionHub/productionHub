@@ -1,6 +1,4 @@
 const express = require('express');
-const dynamo = new doc.DynamoDB();
-const router = require('./router.js');
 const AWS = require('aws-sdk');
 
 const app = express();
